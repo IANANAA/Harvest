@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!--Font Awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+		<!--Fonts-->
+		<link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<style type="text/css">
+			.overlay {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 100%;
+				width: 100%;
+				opacity: 0;
+				transition: .7s ease;
+				background-color: black;
+			}
+
+			.container:hover .overlay {
+				opacity: 0.7;
+			}
+
+			.text {
+				color: white;
+				font-size: 16px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+				text-align: center;
+			}
+		</style>
+		<title>HOME</title>
+
+	</head>
+	<body style="margin:0;">
+		<div class="box-black" style="text-align: center; height: 30px;">
+			<p>PROMO Gratis Ongkir dan Potongan 30% Minimal BELANJAanja 300.000</p>
+		</div>
+		<div class="container-rc">
+			<!-- logo -->
+			<div class="box" style="padding-left: 30px;">
+				<p style="font-family: 'Covered By Your Grace', cursive; font-size: 34px;float: margin-bottom: 0rem; line-height: 0.5; align-content: center;">HARVEST</p>
+				<p style="line-height: 0;">FASHION STORE</p>
+			</div>
+
+			<!-- search bar -->
+			<div class="box" style="width: 60%; margin: auto;">
+				<form class="form-inline my-2 my-lg-0">
+			     	<input class="form-control mr-sm-2" type="search" placeholder="Cari Katalog" aria-label="Search" style="border-radius: 25px; width: 100%;">
+			    </form>
+			</div>
+
+			<!-- account & cart menu -->
+			<div class="box" style="padding-right: 30px; margin-top: 10px;">
+
+				<a class="btn btn-primary" href="keranjang.html" role="button" style="background: transparent; border: none; float: right;"><i class="fas fa-shopping-cart" style="color: black; margin-right: 5px; margin-left: 5px"></i></a>
+
+				<a class="btn btn-primary" href="wishlist.html" role="button" style="background: transparent; border: none; float: right;"><i class="fas fa-heart" style="color: black; margin-right: 5px; margin-left: 5px"></i></a>
+				
+				<div class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: transparent; border: none; float: right;"><i class="fas fa-user" style="margin-left: 10px; color: black;"></i>
+				
+					</button>
+					<div class="dropdown-menu">
+						<form class="px-4 py-3">
+						<div class="form-group">
+							<label for="exampleDropdownFormEmail1">Alamat Email</label>
+							<input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="nama@mail.com">
+						</div>
+						<div class="form-group">
+							<label for="exampleDropdownFormPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="******">
+						</div>
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" id="dropdownCheck">
+							<label class="form-check-label" for="dropdownCheck">
+						    Ingat Saya
+						  </label>
+						</div>
+						<button type="submit" class="btn btn-primary" style="float: right; margin-top: -30px">Masuk</button>
+						</form>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="register.html">Belum punya akun? Daftar disini</a>
+						<a class="dropdown-item" href="#">Lupa Password?</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-t6">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto"  style="margin: auto;">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WANITA</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="wanita.html">Semua</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Atasan</a>
+						<a class="dropdown-item" href="#">Bawahan</a>
+						<a class="dropdown-item" href="#">Outwear</a>
+						<a class="dropdown-item" href="#">Aksesoris</a>
+						<a class="dropdown-item" href="#">Sepatu</a>
+					</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRIA</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Semua</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Atasan</a>
+						<a class="dropdown-item" href="#">Bawahan</a>
+						<a class="dropdown-item" href="#">Outwear</a>
+						<a class="dropdown-item" href="#">Aksesoris</a>
+						<a class="dropdown-item" href="#">Sepatu</a>
+					</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ANAK</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Semua</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Atasan</a>
+						<a class="dropdown-item" href="#">Bawahan</a>
+						<a class="dropdown-item" href="#">Outwear</a>
+						<a class="dropdown-item" href="#">Aksesoris</a>
+						<a class="dropdown-item" href="#">Sepatu</a>
+					</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">BLOG</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- parallax -->
+		<div class="parallax">
+			<div class="container-head-par" style="padding-left: 30px; margin-top: 0rem; line-height: 1;">
+				<div class="row">
+					<div class="col" style="margin-top: 170px;">
+						<span style="color: black; font-weight: 1000; font-size: 60px;">FEELING</span> 
+						<span style="color: white; font-weight: 1000; font-size: 60px;">GOOD.</span><br>
+						<span style="color: white; font-weight: 1000; font-size: 60px;">FEELING</span> 
+						<span style="color: black; font-weight: 1000; font-size: 60px;">GOOD.</span><br>
+						<i><span style="color: black; font-size: 40px; letter-spacing: 13px;">IN YOUR STYLE</span></i>
+					</div>
+					<div class="col" style="margin-right: 30px; margin-top: 100px;">
+						<p style="color: black; font-weight: 1000; font-size: 71px; text-align: right; ">Introducing</span><p>
+						<p style="color: white; font-weight: 1000; font-size: 65px; text-align: right;margin-top: -10px">New Arrivals</p>
+						<p style="color: white; font-weight: 1000; font-size: 130px; text-align: right; margin-top: -15px">2 0 2 3</p>
+					</div>
+				</div>
+				
+				
+				
+			</div>
+			
+		</div>
+
+		<h1 style="text-align: center; font-weight: 900;">WHATS HOT</h1>
+
+		<div class="row" style="margin: 20px;">
+			<div class="col" style="margin-left: 100px;">
+				<a href=""><div class="container promo-big" style="background-image: url('images/home/man.jpg');">
+					<h1 style="font-weight: 800; font-size: 4rem;color: white;">New <br>Men's</h1>
+					<h1 style="font-weight: 800; color: white;">Collection</h1>
+				</div></a>
+			</div>
+			<div class="col">
+				<div class="row">
+					<a href=""><div class="container promo-big" style="background-image: url('images/home/guess.jpg'); height: 235px;">
+					<h1 style="text-align: right; font-weight: 700; color: white;">Top Rate <br><span style="font-size: 3rem">June</span></h1>
+				</div></a>
+				</div>
+				<div class="row">
+					<a href=""><div class="container promo-big" style="background-image: url('images/home/tamara.jpg'); height: 235px; margin-top: 30px;">
+						<h1 style="text-align: right; font-weight: 700; color: white; padding-top: 100px;">Dress For <br><span style="font-size: 4rem">Summer</span></h1>
+
+					</div></a>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="margin: 20px;">
+			<div class="col" style="margin-left: 100px;">
+				<a href=""><div class="container promo-big" style="background-image: url('images/home/4ear.jpg'); height: 235px; margin-top: 10px;">
+					<h1 style="text-align: right; font-weight: 700; color: white;">Sweater <br><span style="font-size: 4rem">Weather</span></h1>
+				</div></a>
+			</div>
+			<div class="col">
+				<div class="row">
+					<div class="col">
+						<a href=""><div class="container promo-big" style="background-image: url('images/home/bag2.jpg'); width: 235px;height: 235px; margin-top: 10px; margin-left: -15px;">
+							<h1 style="text-align: left; font-weight: 700; color: white; padding-top: 130px;">Go <br><span style="font-size: 3rem">Simple</span></h1>
+						</div></a>
+					</div>
+					<div class="col">
+						<a href=""><div class="container promo-big" style="background-image: url('images/home/shoes.jpg'); height: 235px; width: 235px; margin-top: 10px;margin-left: -50px;">
+						<h1 style="text-align: right; font-weight: 700; color: white;">Vintage <br><span style="font-size: 3rem">n' Fancy</span></h1>
+				</div></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!-- Flash Sale Of The Day -->
+		<div class="row" style="margin-top: 50px; background-color: #d6baa4;">
+			<div class="col">
+				<div class="container promo-big" style="background-image: url('images/home/marta jacket.jpg'); height: 700px; width: 700px;">
+					<h1 style="font-weight: 800; font-size: 4rem;color: white;">Marta<br>Jacket</h1>
+					<h1 style="font-weight: 800; color: white;">Blue</h1>
+				</div>
+			</div>
+			<div class="col" style="margin-top: 30px;">
+				<h1 style="text-align: center; font-size: 5rem; font-family: 'Permanent Marker', cursive;">Flash Sale Of The Day</h1>
+				<hr style="width: 150px; margin: auto; border: 2px dotted white">
+
+				<!-- count down -->
+				<p id="demo" style="text-align: center; margin-top: 50px; font-size: 4.2rem; font-weight: 600; color: white;"></p>
+				<p style="text-align: center; color: white; margin-top: -30px; font-size: 1.2rem;">hari 
+					<span style="margin-left: 55px;">jam</span> 
+					<span style="margin-left: 55px;">menit</span>
+					<span style="margin-left: 55px;">detik</span></p>
+				<!-- count down -->
+
+				<p style="margin-bottom: 2px; text-align: center; font-size: 2rem; font-weight: 500"><span style="text-decoration: line-through; color: #EA4D4D; font-size: 1.2rem;">IDR399,000</span><br>IDR 249,999</p>
+
+				<a href="#"><button type="submit" class="btn btn-black" style="width: 40%; margin-top: 30px;margin-left: 180px">Pesan Sekarang</button></a>
+			</div>
+		</div>
+<!-- Flash Sale Of The Day -->
+
+<!-- instagram -->
+		<img src="images/icons8-instagram-512.png" class="rounded mx-auto d-block" style="width: 15%; margin-top: 50px;">
+		<h4 style="text-align: center">Instagram Feeds</h4>
+		<h6 style="text-align: center;;margin-bottom: 50px">@harvest.cloth</h6>
+		<div class="row">
+			<div class="col" style="margin:0;padding: 0;">
+				<a href="">
+					<div class="container ig" style="background-image: url('images/home/ig.jpg');">
+						<div class="overlay">
+	   						<div class="text"> 
+	   							<i class="fab fa-instagram fa-2x" aria-hidden="true" style="color: white;"></i><br>View Post
+	   						</div>
+  						</div>
+  					</div>
+  				</a>
+			</div>
+			<div class="col" style="margin:0;padding: 0;">
+				<a href="">
+					<div class="container ig" style="background-image: url('images/home/ig4.jpg');">
+						<div class="overlay">
+	   						<div class="text"> 
+	   							<i class="fab fa-instagram fa-2x" aria-hidden="true" style="color: white;"></i><br>View Post
+	   						</div>
+  						</div>
+  					</div>
+  				</a>
+			</div>
+			<div class="col" style="margin:0;padding: 0;">
+				<a href="">
+					<div class="container ig" style="background-image: url('images/home/ig2.jpg');">
+						<div class="overlay">
+	   						<div class="text"> 
+	   							<i class="fab fa-instagram fa-2x" aria-hidden="true" style="color: white;"></i><br>View Post
+	   						</div>
+  						</div>
+  					</div>
+  				</a>
+			</div>
+			<div class="col" style="margin:0;padding: 0;">
+				<a href="">
+					<div class="container ig" style="background-image: url('images/home/ig6.jpg');">
+						<div class="overlay">
+	   						<div class="text"> 
+	   							<i class="fab fa-instagram fa-2x" aria-hidden="true" style="color: white;"></i><br>View Post
+	   						</div>
+  						</div>
+  					</div>
+  				</a>
+			</div>
+			<div class="col" style="margin:0;padding: 0;">
+				<a href="">
+					<div class="container ig" style="background-image: url('images/home/ig5.jpg');">
+						<div class="overlay">
+	   						<div class="text"> 
+	   							<i class="fab fa-instagram fa-2x" aria-hidden="true" style="color: white;"></i><br>View Post
+	   						</div>
+  						</div>
+  					</div>
+  				</a>
+			</div>
+			<div class="col" style="margin:0;padding: 0;">
+				<a href="">
+					<div class="container ig" style="background-image: url('images/home/ig3.jpg');">
+						<div class="overlay">
+	   						<div class="text"> 
+	   							<i class="fab fa-instagram fa-2x" aria-hidden="true" style="color: white;"></i><br>View Post
+	   						</div>
+  						</div>
+  					</div>
+  				</a>
+			</div>
+		</div>
+<!-- instagram -->
+
+
+
+		<footer style="padding-top: 50px;margin:0;">
+			<div class="row" style="line-height: 1.3;">
+				<div class="col-sm-2" style="text-align: right; border-right: 1px solid grey;">
+					<h5>BELANJA</h5>
+					<a href="">Produk Baru</a><br>
+					<a href="">Promo Spesial</a><br>
+					<a href="">Pakaian Wanita</a><br>
+					<a href="">Pakaian Pria</a><br>
+					<a href="">Pakaian Anak</a><br>
+					<a href="">Aksesoris</a><br>
+					<a href="">Brand</a>
+				</div>
+				<div class="col-sm-2" style="text-align: right; border-right: 1px solid grey;">
+					<h5>INFORMASI</h5>
+					<a href="">Tentang Kami</a><br>
+					<a href="">Layanan Pelanggan</a><br>
+					<a href="">Blog</a><br>
+					<a href="">FAQs</a><br>
+					<a href="">Kontak Kami</a>
+				</div>
+				<div class="col-sm-2" style="text-align: right; border-right: 1px solid grey;">
+					<h5>PESAN</h5>
+					<a href="">Akun Saya</a><br>
+					<a href="">Lihat Keranjang</a><br>
+					<a href="">Privacy Policy</a><br>
+					<a href="">Cookie Policy</a>
+				</div>
+				<div class="col-sm-6" style="text-align: left; padding-left: 10%; padding-right: 10%;">
+					<h5>LANGGANAN NEWSLETTER</h5>
+					<p style="color: grey; font-size: 12px;"> Daftarkan e-mail Anda untuk berlangganan newsletter kami dan dapatkan informasi produk juga promo menarik TEAM6!</p>
+					<form style="width: 75%; float: left;">
+						<div class="form-group">
+							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nama@mail.com" style="background-color: black; color: white;" >
+						</div>
+						<button type="submit" class="btn btn-black" style="width: 40%; margin-bottom: 10px; border-color: white;">Langganan</button>
+					</form>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="scripts/countdown.js"></script>
+
+	</body>
+</html>
